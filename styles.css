@@ -1,0 +1,79 @@
+/* reseteamos el body y agregamos una fuente agradable */
+body{
+    margin:0;
+    font-family: 'Inter', sans-serif;
+    background: #0F0F3B;
+    background: linear-gradient(90deg, rgba(15, 15, 59, 1) 0%, rgba(15, 15, 59, 1) 100%, rgba(145, 64, 64, 1) 50%);
+}
+/* nav antes de pasar el click */
+.navega ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    display: inline-block;/* para que no ocurra el terremto y se queden todos quietos en la misma linea */
+    transition: transform 0.3s ease, color  0.3s ease;
+    
+
+}
+
+/* mejora visual del menu de navegacion nav al pasar el curso encima se vuelve rojo*/
+
+.navega ul li a:hover{
+    /* transition-duration: 5ms; esto hace que para que aparezca el efecto cuando pasemos el curso demore 5 ms hay un problema y genera un terremoto visual por lo que lo corregiremos por */
+    /*transition-duration: 300ms;/* esto hace que el efecto se vea mas limpio pero aun tiene el efecto terremoto por lo que se corregira a lo siguiente */
+    transition-duration: 300ms;
+    transform: scale(1.5);/* crece el texto un 50% mas */
+    color:rgb(253, 0, 0);/* color letra al pasar cursor */
+    
+    
+}
+
+
+/* ahora si mejora visual del menu de navegacion se cambio el nombre de la clase a navega para entender */
+
+
+.navega ul{
+    list-style: none;/* quitamos los puntos de la lista se veo feo */
+    display: flex;/* la forma en que se organizaran es en una flecha  */
+    justify-content: center;/* Centramos todos  los ojetos de nav en el centro */
+    gap: 50px;/* Espacio entre li es de 50 para que queden en la misma linea pero con espacio entre ellos  */
+
+}
+
+
+/* clase principal div */
+
+.inicio{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* ajuste de imagen de perfil pagina */
+
+.imagen-inicio img{
+    width: 300px;
+}
+/* TITULO H1 */
+h1, p, h2{
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+/* cambiamos el color de link de contacame aqui */
+.boton-inicio{
+    color:white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.boton-inicio:hover{
+    /* Creamos la animacion del cursor similar al la barra de navegacion */
+    color: red;
+    transition: 500ms;
+    transform: scale(1.5);
+}
+/* estilo del parrafo de presentacion en inicio */
+
+#inicio-yo{
+    font-size: 20px;
+}
