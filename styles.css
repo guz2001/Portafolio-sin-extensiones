@@ -53,8 +53,8 @@ body{
 /* ajuste de imagen de perfil pagina */
 
 .imagen-inicio img{
-    width: 150px;
-    border-radius: 50%;
+    width: 100px;
+    border-radius: 80px;
 }
 /* TITULO H1 */
 h1, p, h2{
