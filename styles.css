@@ -47,12 +47,13 @@ body{
     display: flex;
     flex-direction: column;
     text-align: center;
+    justify-content: center;
 }
 
 /* ajuste de imagen de perfil pagina */
 
 .imagen-inicio img{
-    width: 300px;
+    width: 150px;
     border-radius: 50%;
 }
 /* TITULO H1 */
@@ -64,8 +65,16 @@ h1, p, h2{
 .boton-inicio{
     color:white;
     text-decoration: none;
-    font-size: 15px;
-    background-color: rgb(105, 68, 68);
+    font-size: 18px;
+    background-color: rgb(10, 9, 9);
+    text-align: center;
+    width: 25vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    
+    
+
 }
 
 .boton-inicio:hover{
