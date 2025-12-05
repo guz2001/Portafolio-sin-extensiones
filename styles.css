@@ -53,6 +53,7 @@ body{
 
 .imagen-inicio img{
     width: 300px;
+    border-radius: 50%;
 }
 /* TITULO H1 */
 h1, p, h2{
@@ -76,4 +77,12 @@ h1, p, h2{
 
 #inicio-yo{
     font-size: 20px;
+}
+/* seccion principal */
+#principal{
+    height: 80vh;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+
 }
