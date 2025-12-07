@@ -3,7 +3,7 @@ body{
     margin:0;
     font-family: 'Inter', sans-serif;
     background: #0F0F3B;
-    background: linear-gradient(180deg, rgba(15, 15, 59, 1) 0%, rgba(15, 15, 59, 1) 50%, rgba(145, 64, 64, 1) 100%);
+    background: rgba(15, 15, 59, 1)
 }
 /* nav antes de pasar el click */
 .navega ul li a {
@@ -72,9 +72,6 @@ h1, p, h2{
     margin-left: auto;
     margin-right: auto;
     border-radius: 20px;
-    
-    
-
 }
 
 .boton-inicio:hover{
