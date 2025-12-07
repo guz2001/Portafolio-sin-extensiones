@@ -6,6 +6,12 @@ body{
     background: rgba(15, 15, 59, 1)
     
 }
+
+/* contenedor de toda la web */
+.contenedor-web{
+    padding: 1%;
+}
+
 /* nav antes de pasar el click */
 .navega ul li a {
     text-decoration: none;
@@ -122,5 +128,27 @@ footer{
 /* habilidades seccion */
 #habilidades{
     display: flexbox;
-    flex-direction: row;
+    color: white;
+    text-align: center;
+    
+    
+    
+}
+
+/* manejo de cajas div */
+.todo-skill{
+    display: flex;/* caja felxible que permite manipular los elementos hijso como queramos */
+    justify-content: space-between;/* genera un espacio entre ellos de forma de flecha */
+    padding: 10% 20%;
+    
+    
+}
+/* clase individua de los hijos de habilidades */
+
+.skill{
+    text-align: center;
+}
+ 
+.iconos{
+    width: 50px;
 }
