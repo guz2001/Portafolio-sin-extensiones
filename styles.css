@@ -55,6 +55,10 @@ body{
 .imagen-inicio img{
     width: 200px;
     border-radius: 50%;
+    object-fit: cover;
+    border:solid;
+    border-color:rgb(193, 193, 204) ;
+   
 }
 /* TITULO H1 */
 h1, p, h2{
@@ -67,11 +71,12 @@ h1, p, h2{
     text-decoration: none;
     font-size: 15px;
     background-color: rgb(255, 255, 255);
-    text-align: center;
+    text-align: left;
     padding: 10px 20px;
-    margin-left: auto;
-    margin-right: auto;
+    /*  margin-left: auto;
+    margin-right: auto;  las borramos por que forzan al boton a centrarse*/
     border-radius: 20px;
+    width: 125px;
 }
 
 .boton-inicio:hover{
@@ -93,10 +98,9 @@ h1, p, h2{
     height: 80vh;
     display:flex;
     flex-direction:row;
-    align-items:center;
-    justify-content: space-evenly;
-
-    gap:50px
+    align-items: center;/* organizar linea vertifcal */
+    justify-content:space-around;/* organiza linea horizontal */
+    gap:50px;
 
 }
 
@@ -107,4 +111,7 @@ h1{
 }
 
 
+footer{
+    color: white;
+}
 
