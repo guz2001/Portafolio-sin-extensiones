@@ -101,6 +101,7 @@ h1, p, h2{
     align-items: center;/* organizar linea vertifcal */
     justify-content:space-around;/* organiza linea horizontal */
     gap:50px;
+    padding: 0 10%;/* significa 0 espacioo arriba 10% a los lados para que no quede como una partida de tenis */
 
 }
 
