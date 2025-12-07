@@ -22,9 +22,8 @@ body{
     /* transition-duration: 5ms; esto hace que para que aparezca el efecto cuando pasemos el curso demore 5 ms hay un problema y genera un terremoto visual por lo que lo corregiremos por */
     /*transition-duration: 300ms;/* esto hace que el efecto se vea mas limpio pero aun tiene el efecto terremoto por lo que se corregira a lo siguiente */
     transition-duration: 300ms;
-    transform: scale(1.5);/* crece el texto un 50% mas */
-    color:rgb(253, 0, 0);/* color letra al pasar cursor */
-    
+    transform: scale(1.2);/* crece el texto un 50% mas */
+    color:rgb(253, 0, 0);/* color letra al pasar cursor */  
     
 }
 
@@ -46,15 +45,16 @@ body{
 .inicio{
     display: flex;
     flex-direction: column;
-    text-align: center;
-    justify-content: center;
+    text-align:left;
+    justify-content:left;
+    
 }
 
 /* ajuste de imagen de perfil pagina */
 
 .imagen-inicio img{
-    width: 100px;
-    border-radius: 80px;
+    width: 200px;
+    border-radius: 50%;
 }
 /* TITULO H1 */
 h1, p, h2{
@@ -63,12 +63,12 @@ h1, p, h2{
 }
 /* cambiamos el color de link de contacame aqui */
 .boton-inicio{
-    color:white;
+    color:rgb(0, 0, 0);
     text-decoration: none;
-    font-size: 18px;
-    background-color: rgb(10, 9, 9);
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
     text-align: center;
-    width: 25vh;
+    padding: 10px 20px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 20px;
@@ -78,12 +78,15 @@ h1, p, h2{
     /* Creamos la animacion del cursor similar al la barra de navegacion */
     color: red;
     transition: 500ms;
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 /* estilo del parrafo de presentacion en inicio */
-
+/* ordenamiento de parrafo p */
 #inicio-yo{
+    
     font-size: 20px;
+   
+    
 }
 /* seccion principal */
 #principal{
@@ -91,5 +94,17 @@ h1, p, h2{
     display:flex;
     flex-direction:row;
     align-items:center;
+    justify-content: space-evenly;
+
+    gap:50px
 
 }
+
+/* estilo h1 titulos */
+
+h1{
+    font-size: 30px;
+}
+
+
+
