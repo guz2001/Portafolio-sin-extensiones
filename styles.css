@@ -131,6 +131,7 @@ footer{
     display: flexbox;
     color: white;
     text-align: center;
+    padding: 20% 0%;
     
     
     
@@ -140,7 +141,7 @@ footer{
 .todo-skill{
     display: flex;/* caja felxible que permite manipular los elementos hijso como queramos */
     justify-content: space-between;/* genera un espacio entre ellos de forma de flecha */
-    padding: 10% 20%;
+    padding: 1% 20%;
     
     
 }
