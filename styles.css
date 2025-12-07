@@ -35,7 +35,7 @@ body{
     list-style: none;/* quitamos los puntos de la lista se veo feo */
     display: flex;/* la forma en que se organizaran es en una flecha  */
     justify-content: center;/* Centramos todos  los ojetos de nav en el centro */
-    gap: 50px;/* Espacio entre li es de 50 para que queden en la misma linea pero con espacio entre ellos  */
+    gap: 70px;/* Espacio entre li es de 50 para que queden en la misma linea pero con espacio entre ellos  */
 
 }
 
@@ -88,8 +88,8 @@ h1, p, h2{
 /* estilo del parrafo de presentacion en inicio */
 /* ordenamiento de parrafo p */
 #inicio-yo{
-    
-    font-size: 20px;
+    max-width: 80%;
+    font-size: 15px;
    
     
 }
@@ -101,8 +101,10 @@ h1, p, h2{
     align-items: center;/* organizar linea vertifcal */
     justify-content:space-around;/* organiza linea horizontal */
     gap:50px;
-    padding: 0 10%;/* significa 0 espacioo arriba 10% a los lados para que no quede como una partida de tenis */
-
+    /* significa 0 espacioo arriba 10% a los lados para que no quede como una partida de tenis */
+    padding: 0 30%;
+    padding-bottom: 20%;
+    text-align: justify;
 }
 
 /* estilo h1 titulos */
