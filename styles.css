@@ -1,16 +1,31 @@
 /* reseteamos el body y agregamos una fuente agradable */
 body{
-    margin:0;
+    justify-content: center;
+    align-items: center;
+    margin:2%;
     font-family: 'Inter', sans-serif;
     background: #0F0F3B;
     background: rgba(15, 15, 59, 1)
     
 }
+/* nav ajuste bloque */
+
+.navega{
+    margin: 5pxpx;
+    display: flex;
+    justify-content: center;
+}
 
 /* contenedor de toda la web */
 .contenedor-web{
-    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    margin: 15px;
+    padding: 15px;
+    justify-content: justify;
+    text-align: center;
+    
 }
 
 /* nav antes de pasar el click */
@@ -51,6 +66,8 @@ body{
 /* clase principal div */
 
 .inicio{
+    margin: 15px;
+    padding: 15px;
     display: flex;
     flex-direction: column;
     text-align:left;
@@ -102,17 +119,18 @@ h1, p, h2{
     
 }
 /* seccion principal */
+
 #principal{
-    height: 80vh;
+    height: auto;
     display:flex;
     flex-direction:row;
     align-items: center;/* organizar linea vertifcal */
     justify-content:space-around;/* organiza linea horizontal */
     gap:50px;
     /* significa 0 espacioo arriba 10% a los lados para que no quede como una partida de tenis */
-    padding: 0 30%;
-    padding-bottom: 20%;
-    text-align: justify;
+    padding: 50px;
+    margin: 25px;
+    text-align: center;
 }
 
 /* estilo h1 titulos */
@@ -131,7 +149,8 @@ footer{
     display: flexbox;
     color: white;
     text-align: center;
-    padding: 20% 0%;
+    padding: 20px;
+    margin: 15px;
     
     
     
