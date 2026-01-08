@@ -188,7 +188,7 @@ h3{
 .click-animacion{
     text-decoration: none;
     color: rgb(235, 229, 229);
-    font-size: 30px;
+    font-size: 20px;
     transition: transform 0.3s ease, color 0.3s ease;
 }
 
@@ -196,6 +196,6 @@ h3{
 /* transicion puntero boton portafolio */
 .click-animacion:hover{   
     transition-duration: 300ms;
-    transform:scale(1.2);
+    transform: scale(1.5);
     color: rgb(207, 22, 22);
 }
